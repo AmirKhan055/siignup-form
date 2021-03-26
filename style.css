@@ -18,7 +18,7 @@
   body {
     padding: 0;
     margin: 0;
-    font-family: "Open Sans", "Arial", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-display: swap;
     font-size: 16px;
     line-height: 1.4;
@@ -36,14 +36,127 @@
     display: flex;
     margin-left: 120px;
     margin-right: auto;
-    justify-content: center;
-      align-items: center;
+    margin: 200 0px;
+    align-items: center;
+    
     
   }
-  .signup-text, .signup-form{
-      width: 500px;
+  .signup-text{
+      width: 530px;
+      color: aliceblue;
+  }
+  .signup-form{
+    margin-left: 100px;
+    width: 500px;
+    margin-top: 150px;
+    
   }
 
-  .signup-form, .card-strong-text{
+  .text-title{
+    color: antiquewhite;
+    font-size: 45px;
+  }
+
+  .main-text{
+    width: 500px;
+    color: #fff;
+  }
+
+  .card-strong-text-card{
+    border: 2px solid rgb(65, 65, 214);
+    background-color: rgb(65, 65, 214);
+    border-radius: 8px;
+    width: 454px;
+    height: 50px;
+    text-align: center;
+    color: antiquewhite;
+    margin: 30px 0px;
+    box-shadow:0px 10px 15px 0px var(--darl-blue);
+    color: white;
+    padding: 10px 15px;
+  }
+
+  .sign-up-form{
+    height: 420px;
+    border: 2px solid white;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 454px;
+    box-shadow:0px 10px 15px 0px var(--darl-blue);
+
+
+
+
+  }
+
+  input[type=text], select {
+    width: 435px;
+    padding: 12px 20px;
+    margin: 8px 9px;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    font-weight:bold;
+  }
+
+  input[type=submit] {
+    font-size: 20px;
+    width: 435px;
+    background-color: var(--green-color);
+    color: white;
+    padding: 10px 15px;
+    margin: 8px 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight:bold;
     
   }
+
+  input[type=email], select {
+    width: 435px;
+    padding: 12px 20px;
+    margin: 8px 9px;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    font-weight:bold;
+  }
+  
+  input[type=password], select {
+    width: 435px;
+    padding: 12px 20px;
+    margin: 8px 9px;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 50px;
+    font-weight:bold;
+  }
+
+  .small-text{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    opacity: .6;
+  
+  }
+
+  
+.text-font{
+  display: flex;
+  font-size: 12px;
+  color: red;
+  font-weight:bold;
+  opacity: .6;
+  
+}
+
+
+
+
